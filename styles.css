@@ -1,17 +1,56 @@
-body
-{
-    background-color:
-}
-
-
 h2{
     text-align: center;
-    padding: 7%;
-    background-color: #b7babf
+    padding: 6%;
+    background-color: #b7babf;
 }
 
+/* change text for each player to bold*/
 .player{
     font-weight: bold;
     font-size: 20px;
 }
 
+.profile{
+    border-radius: 50%;
+}
+
+#lebronProfile
+{
+    padding: 1%;
+    background-image: url("https://cdn.shopify.com/s/files/1/1754/4549/products/022_Light_Yellow_325f547f-dfe0-4374-bebe-c65112996e61_530x.png?v=1525198399");
+    margin: 0px 0px 0px 0px;
+
+}
+
+#player
+{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+}
+
+td
+{
+    border: 1px black solid;
+    text-align: center;
+}
+
+th
+{
+    border: 1px black solid;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+iframe{
+    margin: 1%;
+}
