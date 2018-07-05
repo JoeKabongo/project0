@@ -18,9 +18,17 @@ h2{
 {
     padding: 1%;
     background-image: url("https://cdn.shopify.com/s/files/1/1754/4549/products/022_Light_Yellow_325f547f-dfe0-4374-bebe-c65112996e61_530x.png?v=1525198399");
-    margin: 0px 0px 0px 0px;
 
 }
+
+#davisProfile
+{
+    padding: 1%;
+    background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/hornets/NOP_wallpaper_1280x1024.jpg");
+    color: #ffffff;
+}
+
+
 
 #player
 {
