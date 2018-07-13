@@ -14,6 +14,7 @@ background-color: #b7babf;
   font-weight: bold;
   font-size: 200%;
 }
+
 /* change text for each player to bold*/
 .name{
   font-weight: bold;
@@ -72,30 +73,30 @@ background-color: #b7babf;
   height: 100%;
 }
 
+
+
 .playerInfo table
 {
-  height:100%;
-  border: none;
-
+   height:100%;
+   border: none;
 }
 
-.playerInfo  th, .playerInfo td
-{
-  background-color: 	#e6e6e6 !important;
-  color: #000000;;
-  border: none;
-}
+.playerInfo th, .playerInfo td
+ {
+   background-color: 	#e6e6e6 !important;
+   color: #000000;;
+   border: none;
+ }
 
-.playerInfo tr
+ .playerInfo tr
 {
-  border-bottom: 1px solid #595959;
+    border-bottom: 1px solid #595959;
 }
 
 .playerInfo tr:last-child
 {
   border-bottom: none;
 }
-
 
 table
 {
@@ -126,9 +127,10 @@ background-color: #dcdee5;
   background-color: #eff4fc;
 }
 
-section
+
+.Highlights
 {
-margin: 1%;
+  text-align: center;
 }
 
 
@@ -138,12 +140,14 @@ h3
 }
 
 iframe{
-margin: 1%;
+  width: 30vw;
+  height: 315px;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 900px) {
   iframe
   {
-    width: 100vw;
+    width: 90vw;
   }
+
 }
