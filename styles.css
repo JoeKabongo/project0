@@ -14,14 +14,16 @@ background-color: #b7babf;
   font-weight: bold;
   font-size: 200%;
 }
-.btn-default{
-  display: block !important;
-}
 
-@media(max-width: 650px) {
+
+@media(max-width: 1440px) {
   .player
   {
     font-size: 100%;
+  }
+
+  .btn-default{
+    display: block !important;
   }
 
 
