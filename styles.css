@@ -19,13 +19,13 @@ background-color: #b7babf;
   display: block !important;
 }
 
-@media(min-width: 641px)
+/*@media(min-width: 641px)
 {
   .btn-default
   {
     display: inline-block !important;
   }
-}
+}*/
 
 @media(max-width: 640px) {
   .player
