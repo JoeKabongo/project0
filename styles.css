@@ -15,10 +15,15 @@ background-color: #b7babf;
   font-size: 200%;
 }
 
+
 @media(max-width: 650px) {
   .player
   {
     font-size: 100%;
+  }
+
+  .btn-default{
+    display: block !important;
   }
 }
 
