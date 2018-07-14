@@ -15,6 +15,16 @@ background-color: #b7babf;
   font-size: 200%;
 }
 
+@media only screen and (max-width: 650px) {
+  .player
+  {
+    font-size: 100%;
+  }
+
+
+
+}
+
 /* change text for each player to bold*/
 .name{
   font-weight: bold;
