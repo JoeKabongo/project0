@@ -14,7 +14,9 @@ background-color: #b7babf;
   font-weight: bold;
   font-size: 200%;
 }
-
+.btn-default{
+  display: block !important;
+}
 
 @media(max-width: 650px) {
   .player
@@ -22,9 +24,7 @@ background-color: #b7babf;
     font-size: 100%;
   }
 
-  .btn-default{
-    display: block !important;
-  }
+
 }
 
 /* change text for each player to bold*/
