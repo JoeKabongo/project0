@@ -55,8 +55,9 @@ background-color: #b7babf;
   font-size: 200%;
 }
 
-.profile{
+.profile_image{
   border-radius: 50%;
+  height: 100%;
 }
 
 #lebronProfile
@@ -107,12 +108,16 @@ background-color: #b7babf;
   height: 100%;
 }
 
-
+.playerInfo1
+{
+  display: none;
+}
 
 .playerInfo table
 {
    height:100%;
    border: none;
+   width: 90%;
 }
 
 .playerInfo th, .playerInfo td
@@ -120,6 +125,7 @@ background-color: #b7babf;
    background-color: 	#e6e6e6 !important;
    color: #000000;;
    border: none;
+   text-align: center;
  }
 
  .playerInfo tr
@@ -132,33 +138,22 @@ background-color: #b7babf;
   border-bottom: none;
 }
 
-table
+@media(max-width:1055px)
 {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  .playerInfo
+  {
+    display: none;
+  }
+
+  .playerInfo1
+  {
+    display: inline-block;
+  }
 }
 
-td,th{
-border: 1px black solid;
-text-align: center !important;;
-padding: 1% !important;
-}
-
-th{
-background-color: #5f6063;
-color: #ffffff;
-}
-
-td
+.playerInfo1, .stats, .Highlights
 {
-background-color: #dcdee5;
-}
-
-.emptyHeader
-{
-  border:none;
-  background-color: #eff4fc;
+  margin-top:  3%;
 }
 
 
