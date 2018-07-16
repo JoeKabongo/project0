@@ -1,37 +1,52 @@
 body
 {
-  background-color: #eff4fc !important;
+  background-color: #eff4fc ;
 }
 
+.navbar-nav {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+}
 
-h1{
+h2{
 text-align: center;
-padding: 6%;
+padding: 3%;
 background-color: #b7babf;
 }
 
+
 .player{
   font-weight: bold;
-  font-size: 200%;
+  font-size: 100%;
 }
 
-.btn-default{
+.btn-outline-secondary{
   display: block !important;
 }
 
-@media(min-width: 641px)
+@media(min-width: 1000px)
 {
-  .btn-default
+  .btn-outline-secondary
   {
     display: inline-block !important;
+    width: 33% !important;
   }
 }
 
-@media(max-width: 640px) {
+
+@media(max-width: 1000px) and (min-width: 700px){
   .player
   {
     font-size: 100%;
   }
+  .btn-outline-secondary
+  {
+    display: inline-block !important;
+    width: 45% !important;
+  }
+
 }
 
 /* change text for each player to bold*/
@@ -163,7 +178,7 @@ iframe{
   height: 315px;
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   iframe
   {
     width: 90vw;
