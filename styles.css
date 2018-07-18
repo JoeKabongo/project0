@@ -45,7 +45,19 @@ h2 {
   border-radius: 50%;
   height: 100%;
   width: 20%; }
+  @media (max-width: 800px) and (min-width: 500px) {
+    .profile_image {
+      width: 50%; } }
 
+@media (max-width: 500px) {
+  .playerProfile {
+    text-align: center; }
+
+  .profile_image {
+    width: 50%; }
+
+  .name {
+    font-size: 100%; } }
 .playerProfile {
   height: 35vh; }
 
